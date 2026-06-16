@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://no-gay.github.io/portfolio-templates/sitemap.xml
