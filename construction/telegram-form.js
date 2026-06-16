@@ -14,14 +14,14 @@
 
 const TG_CONFIG = {
     // 1) Токен бота от @BotFather
-    BOT_TOKEN: 'PASTE_YOUR_BOT_TOKEN',
+    BOT_TOKEN: '8802256141:AAEzzF92tgGZiiHM4D7rMFGbGzTmpMEDoCo',
     // 2) ID чата/канала, куда слать заявки (узнать у @userinfobot)
-    CHAT_ID: 'PASTE_YOUR_CHAT_ID',
+    CHAT_ID: '8867433038',
     // 3) Домен сайта — добавится в шапку сообщения
     SITE_NAME: window.location.hostname || 'demo-site',
     // 4) Если true — заявка реально уходит в Telegram.
     //    false — режим демо (только показывает success, в сеть не уходит).
-    ENABLED: false,
+    ENABLED: true,
 };
 
 /* ============================================
