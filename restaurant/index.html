@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Trattoria del Sole — аутентичная итальянская кухня в Краснодаре. Свежая паста, дровяная печь, винная карта. Бронируйте столик онлайн.">
+    <meta name="keywords" content="ресторан Краснодар, итальянская кухня, trattoria, паста, пицца, бронирование столика">
+    <title>Trattoria del Sole — Итальянская кухня в Краснодаре</title>
+    <meta name="theme-color" content="#C8553D">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://example.com/restaurant/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ru_RU">
+    <meta property="og:title" content="Trattoria del Sole — Итальянская кухня в Краснодаре">
+    <meta property="og:description" content="Аутентичная итальянская кухня в Краснодаре. Свежая паста, дровяная печь, винная карта. Бронируйте столик онлайн.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?w=1200&q=80">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Trattoria del Sole — Итальянская кухня в Краснодаре">
+    <meta name="twitter:description" content="Свежая паста, дровяная печь, винная карта. Бронируйте столик онлайн.">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?w=1200&q=80">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- ============ NAVIGATION ============ -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-icon">☀</span>
+                <span class="logo-text">Trattoria <em>del Sole</em></span>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Главная</a></li>
+                <li><a href="#about" class="nav-link">О нас</a></li>
+                <li><a href="#menu" class="nav-link">Меню</a></li>
+                <li><a href="#gallery" class="nav-link">Галерея</a></li>
+                <li><a href="#reviews" class="nav-link">Отзывы</a></li>
+                <li><a href="#contacts" class="nav-link">Контакты</a></li>
+            </ul>
+            <a href="#reservation" class="btn btn-nav">Забронировать</a>
+            <button class="hamburger" id="hamburger" aria-label="Меню">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ============ HERO ============ -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-eyebrow reveal">★ Краснодар · с 2014 года</p>
+            <h1 class="hero-title reveal">
+                Вкус солнца <br>
+                <em>в каждом блюде</em>
+            </h1>
+            <p class="hero-subtitle reveal">
+                Аутентичная итальянская кухня. Паста ручной работы, пицца из дровяной печи и вино, привезённое из Тосканы.
+            </p>
+            <div class="hero-actions reveal">
+                <a href="#reservation" class="btn btn-primary">Забронировать столик</a>
+                <a href="#menu" class="btn btn-ghost">Посмотреть меню →</a>
+            </div>
+        </div>
+        <a href="#about" class="scroll-indicator">
+            <span>Листайте вниз</span>
+            <div class="mouse"><div class="wheel"></div></div>
+        </a>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text reveal">
+                    <p class="section-eyebrow">Наша история</p>
+                    <h2 class="section-title">Десять лет <em>настоящей</em> Италии в центре Краснодара</h2>
+                    <p class="section-text">
+                        Trattoria del Sole открылась в 2014 году, когда шеф-повар Марконтони переехал из Неаполя в Краснодар с одной мечтой — готовить пасту так, как её готовят в итальянских семьях: из свежих продуктов, с душой и без спешки.
+                    </p>
+                    <p class="section-text">
+                        Сегодня мы подаём более 40 блюд аутентичной кухни, а наша винная карта насчитывает свыше 120 позиций из разных регионов Италии.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number" data-target="10">0</span>
+                            <span class="stat-label">лет работы</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-target="40">0</span>
+                            <span class="stat-label">блюд в меню</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-target="120">0</span>
+                            <span class="stat-label">сортов вина</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image reveal">
+                    <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&q=80" alt="Интерьер ресторана Trattoria del Sole">
+                    <div class="image-badge">
+                        <span class="badge-icon">🍳</span>
+                        <span>Шеф из Италии</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ FEATURES ============ -->
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card reveal">
+                    <div class="feature-icon">🔥</div>
+                    <h3>Дровяная печь</h3>
+                    <p>Пицца на дубовых дровах при 450°C — тот самый вкус Неаполя.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon">🍝</div>
+                    <h3>Паста ручной работы</h3>
+                    <p>Каждый день раскатываем тесто вручную по семейному рецепту.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon">🍷</div>
+                    <h3>Винная карта</h3>
+                    <p>120+ вин из Тосканы, Сицилии, Пьемонта и Венето.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon">🌿</div>
+                    <h3>Свежие продукты</h3>
+                    <p>Овощи с местных ферм и сыры напрямую из Италии.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ MENU ============ -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="section-eyebrow">Наше меню</p>
+                <h2 class="section-title">Блюда, ради которых <em>возвращаются</em></h2>
+            </div>
+
+            <div class="menu-filters reveal">
+                <button class="filter-btn active" data-filter="all">Всё меню</button>
+                <button class="filter-btn" data-filter="starters">Закуски</button>
+                <button class="filter-btn" data-filter="pasta">Паста</button>
+                <button class="filter-btn" data-filter="pizza">Пицца</button>
+                <button class="filter-btn" data-filter="desserts">Десерты</button>
+            </div>
+
+            <div class="menu-grid">
+                <div class="menu-item reveal" data-category="starters">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1572695157366-5e585ab2b69f?w=500&q=80" alt="Брускетта">
+                        <span class="menu-tag">Хит</span>
+                    </div>
+                    <div class="menu-item-body">
+                        <div class="menu-item-header">
+                            <h3>Брускетта классика</h3>
+                            <span class="menu-price">480 ₽</span>
+                        </div>
+                        <p>Хрустящий хлеб на закваске, томаты, базилик, чеснок и оливковое масло первого отжима.</p>
+                    </div>
+                </div>
+
+                <div class="menu-item reveal" data-category="pasta">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=500&q=80" alt="Карбонара">
+                        <span class="menu-tag tag-new">Новинка</span>
+                    </div>
+                    <div class="menu-item-body">
+                        <div class="menu-item-header">
+                            <h3>Спагетти Карбонара</h3>
+                            <span class="menu-price">720 ₽</span>
+                        </div>
+                        <p>Свежая паста, гуанчале, желток, пекорино романо и свежемолотый перец.</p>
+                    </div>
+                </div>
+
+                <div class="menu-item reveal" data-category="pizza">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=500&q=80" alt="Маргарита">
+                        <span class="menu-tag">Хит</span>
+                    </div>
+                    <div class="menu-item-body">
+                        <div class="menu-item-header">
+                            <h3>Пицца Маргарита</h3>
+                            <span class="menu-price">640 ₽</span>
+                        </div>
+                        <p>Томаты Сан-Марцано, моцарелла фиор ди латте, свежий базилик, оливковое масло.</p>
+                    </div>
+                </div>
+
+                <div class="menu-item reveal" data-category="pasta">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=500&q=80" alt="Тальятелле">
+                    </div>
+                    <div class="menu-item-body">
+                        <div class="menu-item-header">
+                            <h3>Тальятелле с трюфелем</h3>
+                            <span class="menu-price">1 180 ₽</span>
+                        </div>
+                        <p>Ленточная паста с чёрным трюфелем, сливками и пармезаном 24 месяца выдержки.</p>
+                    </div>
+                </div>
+
+                <div class="menu-item reveal" data-category="desserts">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=500&q=80" alt="Тирамису">
+                        <span class="menu-tag">Хит</span>
+                    </div>
+                    <div class="menu-item-body">
+                        <div class="menu-item-header">
+                            <h3>Тирамису</h3>
+                            <span class="menu-price">420 ₽</span>
+                        </div>
+                        <p>Савоярди, крем из маскарпоне, кофе эспрессо и какао. Рецепт бабушки Джованни.</p>
+                    </div>
+                </div>
+
+                <div class="menu-item reveal" data-category="starters">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1505253758473-96b7015fcd40?w=500&q=80" alt="Карпаччо">
+                    </div>
+                    <div class="menu-item-body">
+                        <div class="menu-item-header">
+                            <h3>Карпаччо из говядины</h3>
+                            <span class="menu-price">690 ₽</span>
+                        </div>
+                        <p>Тончайшие ломтики сырой говядины, руккола, пармезан, лимон и оливковое масло.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-cta reveal">
+                <a href="#reservation" class="btn btn-outline">Скачать полное меню (PDF)</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ GALLERY ============ -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="section-eyebrow">Атмосфера</p>
+                <h2 class="section-title">Загляните <em>внутрь</em></h2>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item gallery-item-tall reveal">
+                    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&q=80" alt="Зал ресторана">
+                </div>
+                <div class="gallery-item reveal">
+                    <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=500&q=80" alt="Интерьер">
+                </div>
+                <div class="gallery-item reveal">
+                    <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=500&q=80" alt="Бар">
+                </div>
+                <div class="gallery-item gallery-item-wide reveal">
+                    <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?w=800&q=80" alt="Подача блюда">
+                </div>
+                <div class="gallery-item reveal">
+                    <img src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?w=500&q=80" alt="Винная карта">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ REVIEWS ============ -->
+    <section id="reviews" class="reviews">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="section-eyebrow">Отзывы гостей</p>
+                <h2 class="section-title">Что говорят <em>о нас</em></h2>
+            </div>
+            <div class="reviews-carousel">
+                <div class="reviews-track" id="reviewsTrack">
+                    <div class="review-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="review-text">«Лучшая карбонара в Краснодаре, без преувеличения. Был в Италии дважды — вкус один в один. Атмосфера тёплая, обслуживание на высоте.»</p>
+                        <div class="review-author">
+                            <div class="author-avatar">АК</div>
+                            <div>
+                                <p class="author-name">Андрей Ковальчук</p>
+                                <p class="author-meta">Гость с 2019 года</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="review-text">«Отмечали годовщину свадьбы. Шеф вышел лично поздравить, принесли комплимент от заведения. Пицца из дровяной печи — огонь! Вернёмся обязательно.»</p>
+                        <div class="review-author">
+                            <div class="author-avatar">ЕМ</div>
+                            <div>
+                                <p class="author-name">Елена Морозова</p>
+                                <p class="author-meta">Постоянный гость</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="review-text">«Винная карта — отдельное удовольствие. Сомелье посоветовал кьянти, которое идеально подошло к стейку. Дорого, но оно того стоит.»</p>
+                        <div class="review-author">
+                            <div class="author-avatar">ДП</div>
+                            <div>
+                                <p class="author-name">Дмитрий Поляков</p>
+                                <p class="author-meta">Бизнес-ужин</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="review-text">«Пришли с детьми — нашли блюдо для каждого. Тирамису просто тает во рту. Спасибо за вечер Италии в центре Краснодара!»</p>
+                        <div class="review-author">
+                            <div class="author-avatar">ОС</div>
+                            <div>
+                                <p class="author-name">Ольга Соколова</p>
+                                <p class="author-meta">Семейный ужин</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews-nav">
+                    <button class="review-btn" id="prevReview" aria-label="Назад">‹</button>
+                    <div class="review-dots" id="reviewDots"></div>
+                    <button class="review-btn" id="nextReview" aria-label="Вперёд">›</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ RESERVATION ============ -->
+    <section id="reservation" class="reservation">
+        <div class="reservation-bg"></div>
+        <div class="container">
+            <div class="reservation-card reveal">
+                <div class="reservation-info">
+                    <p class="section-eyebrow">Бронирование</p>
+                    <h2 class="section-title">Забронируйте <em>столик</em></h2>
+                    <p class="section-text">Оставьте заявку — администратор перезвонит в течение 15 минут для подтверждения.</p>
+                    <ul class="reservation-list">
+                        <li><span>✓</span> Подтверждение за 15 минут</li>
+                        <li><span>✓</span> Бесплатная отмена</li>
+                        <li><span>✓</span> Особые пожелания к столу</li>
+                    </ul>
+                </div>
+                <form class="reservation-form" id="reservationForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Ваше имя</label>
+                            <input type="text" id="name" name="name" placeholder="Иван" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Телефон</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+7 (___) ___-__-__" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="date">Дата</label>
+                            <input type="date" id="date" name="date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="time">Время</label>
+                            <input type="time" id="time" name="time" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="guests">Гостей</label>
+                            <select id="guests" name="guests">
+                                <option>1 гость</option>
+                                <option selected>2 гостя</option>
+                                <option>3 гостя</option>
+                                <option>4 гостя</option>
+                                <option>5–6 гостей</option>
+                                <option>7+ (банкет)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="zone">Зал</label>
+                            <select id="zone" name="zone">
+                                <option>Основной зал</option>
+                                <option>Терраса</option>
+                                <option>VIP-комната</option>
+                                <option>Бар</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="comment">Пожелания (необязательно)</label>
+                        <textarea id="comment" name="comment" rows="2" placeholder="День рождения, аллергии, детский стул..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Забронировать столик</button>
+                    <p class="form-note">Нажимая кнопку, вы соглашаетесь с обработкой персональных данных</p>
+                    <div class="form-success" id="formSuccess">
+                        ✓ Спасибо! Администратор перезвонит вам в течение 15 минут.
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ CONTACTS ============ -->
+    <section id="contacts" class="contacts">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="section-eyebrow">Контакты</p>
+                <h2 class="section-title">Как нас <em>найти</em></h2>
+            </div>
+            <div class="contacts-grid">
+                <div class="contact-cards">
+                    <div class="contact-card reveal">
+                        <div class="contact-icon">📍</div>
+                        <h3>Адрес</h3>
+                        <p>г. Краснодар,<br>ул. Красная, 88</p>
+                    </div>
+                    <div class="contact-card reveal">
+                        <div class="contact-icon">🕒</div>
+                        <h3>Часы работы</h3>
+                        <p>Пн–Чт: 12:00 — 23:00<br>Пт–Вс: 12:00 — 01:00</p>
+                    </div>
+                    <div class="contact-card reveal">
+                        <div class="contact-icon">✈️</div>
+                        <h3>Телефон</h3>
+                        <p><a href="https://t.me/liaqil" target="_blank">Telegram: @liaqil</a></p>
+                    </div>
+                    <div class="contact-card reveal">
+                        <div class="contact-icon">✉</div>
+                        <h3>Email</h3>
+                        <p><a href="mailto:hello@trattoria-sole.ru">hello@trattoria-sole.ru</a></p>
+                    </div>
+                </div>
+                <div class="map-container reveal">
+                    <iframe src="https://yandex.ru/map-widget/v1/?ll=38.976930%2C45.035470&z=15" width="100%" height="100%" frameborder="0" title="Карта — Trattoria del Sole" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="#home" class="logo">
+                        <span class="logo-icon">☀</span>
+                        <span class="logo-text">Trattoria <em>del Sole</em></span>
+                    </a>
+                    <p class="footer-tagline">Аутентичная итальянская кухня в Краснодаре с 2014 года.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram">Instagram</a>
+                        <a href="#" aria-label="Telegram">Telegram</a>
+                        <a href="#" aria-label="VK">VK</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Навигация</h4>
+                    <ul>
+                        <li><a href="#about">О нас</a></li>
+                        <li><a href="#menu">Меню</a></li>
+                        <li><a href="#gallery">Галерея</a></li>
+                        <li><a href="#reviews">Отзывы</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Услуги</h4>
+                    <ul>
+                        <li><a href="#reservation">Бронирование</a></li>
+                        <li><a href="#">Доставка</a></li>
+                        <li><a href="#">Банкеты</a></li>
+                        <li><a href="#">Корпоративы</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Подписка</h4>
+                    <p>Новости, акции и закрытые ужины.</p>
+                    <form class="newsletter" id="newsletter">
+                        <input type="email" placeholder="email@example.com" required>
+                        <button type="submit">→</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 Trattoria del Sole. Все права защищены.</p>
+                <p>Сделано с любовью к итальянской кухне 🇮🇹</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="telegram-form.js"></script>
+</body>
+</html>

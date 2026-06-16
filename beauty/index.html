@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lumière Beauty — премиальный beauty-салон в Краснодаре. Стрижки, окрашивание, маникюр, косметология, наращивание ресниц. Запишитесь онлайн.">
+    <meta name="keywords" content="beauty салон Краснодар, парикмахерская, маникюр, косметология, наращивание ресниц, окрашивание волос">
+    <title>Lumière Beauty — Премиальный beauty-салон в Краснодаре</title>
+    <meta name="theme-color" content="#C06C84">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://example.com/beauty/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ru_RU">
+    <meta property="og:title" content="Lumière Beauty — Премиальный beauty-салон в Краснодаре">
+    <meta property="og:description" content="Стрижки, окрашивание, маникюр, косметология, наращивание ресниц. Запишитесь онлайн.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1200&q=80">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Lumière Beauty — Премиальный beauty-салон">
+    <meta name="twitter:description" content="Топовые мастера, профессиональная косметика. Запишитесь онлайн.">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1200&q=80">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- ============ NAVIGATION ============ -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-icon">✦</span>
+                <span class="logo-text">Lumière <em>Beauty</em></span>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Главная</a></li>
+                <li><a href="#about" class="nav-link">О нас</a></li>
+                <li><a href="#services" class="nav-link">Услуги</a></li>
+                <li><a href="#gallery" class="nav-link">Галерея</a></li>
+                <li><a href="#reviews" class="nav-link">Отзывы</a></li>
+                <li><a href="#contacts" class="nav-link">Контакты</a></li>
+            </ul>
+            <a href="#appointment" class="btn btn-nav">Записаться</a>
+            <button class="hamburger" id="hamburger" aria-label="Меню">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ============ HERO ============ -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-eyebrow reveal">★ Краснодар · с 2016 года</p>
+            <h1 class="hero-title reveal">
+                Ваша красота — <br>
+                <em>наше вдохновение</em>
+            </h1>
+            <p class="hero-subtitle reveal">
+                Премиальный beauty-сервис в центре Краснодара. Топовые мастера, профессиональная косметика и атмосфера, в которой хочется остаться.
+            </p>
+            <div class="hero-actions reveal">
+                <a href="#appointment" class="btn btn-primary">Записаться онлайн</a>
+                <a href="#services" class="btn btn-ghost">Смотреть прайс →</a>
+            </div>
+        </div>
+        <a href="#about" class="scroll-indicator">
+            <span>Листайте вниз</span>
+            <div class="mouse"><div class="wheel"></div></div>
+        </a>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text reveal">
+                    <p class="section-eyebrow">О салоне</p>
+                    <h2 class="section-title">Место, где <em>рождается</em> уверенность</h2>
+                    <p class="section-text">
+                        Lumière Beauty — это не просто салон. Это пространство, где каждая клиентка получает индивидуальный подход, а каждый мастер — художник, влюблённый в своё дело.
+                    </p>
+                    <p class="section-text">
+                        Мы работаем только с премиальной косметикой и следим за трендами мировых beauty-индустрий, чтобы вы всегда были на шаг впереди.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number" data-target="8">0</span>
+                            <span class="stat-label">лет работы</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-target="15">0</span>
+                            <span class="stat-label">мастеров</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-target="12000">0</span>
+                            <span class="stat-label">довольных клиенток</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image reveal">
+                    <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&q=80" alt="Интерьер beauty-салона Lumière Beauty">
+                    <div class="image-badge">
+                        <span class="badge-icon">🏆</span>
+                        <span>Топ-3 в Краснодаре</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="section-eyebrow">Наши услуги</p>
+                <h2 class="section-title">Всё для вашей <em>красоты</em></h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card reveal">
+                    <div class="service-icon">✂️</div>
+                    <h3>Парикмахерский зал</h3>
+                    <p>Стрижки, укладки, окрашивание, балаяж, шатуш. Работаем с Redken, Wella, Schwarzkopf.</p>
+                    <span class="service-price">от 1 500 ₽</span>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon">💅</div>
+                    <h3>Маникюр и педикюр</h3>
+                    <p>Аппаратный маникюр, покрытие гель-лаком, дизайн ногтей, наращивание, SPA-уход для рук.</p>
+                    <span class="service-price">от 1 200 ₽</span>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon">👁️</div>
+                    <h3>Наращивание ресниц</h3>
+                    <p>Классика, объём, мокрый эффект, ламинирование. hypoallergen материалы — Lash Botox.</p>
+                    <span class="service-price">от 2 000 ₽</span>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon">🧖‍♀️</div>
+                    <h3>Косметология</h3>
+                    <p>Чистка лица, пилинги, мезотерапия, биоревитализация, уходовые программы для кожи.</p>
+                    <span class="service-price">от 2 500 ₽</span>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon">💄</div>
+                    <h3>Визаж и брови</h3>
+                    <p>Вечерний и дневной макияж, перманентный макияж, коррекция и ламинирование бровей.</p>
+                    <span class="service-price">от 1 800 ₽</span>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon">💆‍♀️</div>
+                    <h3>SPA и массаж</h3>
+                    <p>Массаж лица, антицеллюлитный массаж, обёртывания, уходовые программы для тела.</p>
+                    <span class="service-price">от 2 000 ₽</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ GALLERY (Before/After) ============ -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="section-eyebrow">Наши работы</p>
+                <h2 class="section-title">Результаты, <em>которые говорят</em></h2>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item gallery-item-tall reveal">
+                    <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600&q=80" alt="Окрашивание волос — результат">
+                </div>
+                <div class="gallery-item reveal">
+                    <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?w=500&q=80" alt="Укладка">
+                </div>
+                <div class="gallery-item reveal">
+                    <img src="https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?w=500&q=80" alt="Маникюр гель-лак">
+                </div>
+                <div class="gallery-item gallery-item-wide reveal">
+                    <img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=800&q=80" alt="Интерьер салона">
+                </div>
+                <div class="gallery-item reveal">
+                    <img src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?w=500&q=80" alt="Наращивание ресниц">
+                </div>
+                <div class="gallery-item reveal">
+                    <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?w=500&q=80" alt="Макияж">
+                </div>
+                <div class="gallery-item reveal">
+                    <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=500&q=80" alt="Брови">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ REVIEWS ============ -->
+    <section id="reviews" class="reviews">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="section-eyebrow">Отзывы клиенток</p>
+                <h2 class="section-title">Что говорят <em>о нас</em></h2>
+            </div>
+            <div class="reviews-grid">
+                <div class="review-card reveal">
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">«Хожу только сюда уже три года. Мария — гений окрашивания! Балаяж получается идеально ровный, держится до 4 месяцев. Атмосфера в салоне — как на SPA-курорте.»</p>
+                    <div class="review-author">
+                        <div class="author-avatar">АВ</div>
+                        <div>
+                            <p class="author-name">Анна Виноградова</p>
+                            <p class="author-meta">Постоянная клиентка с 2021</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card reveal">
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">«Наращивание ресниц у Кристины — лучшее, что я пробовала. Натуральный эффект, ресницы не ломаются. Плюс кофе и печеньки в ожидании — мелочь, а приятно!»</p>
+                    <div class="review-author">
+                        <div class="author-avatar">МК</div>
+                        <div>
+                            <p class="author-name">Мария Козлова</p>
+                            <p class="author-meta">Ресницы + брови</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card reveal">
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">«Делала маникюр перед свадьбой. Мастер подобрала идеальный оттенок, дизайн был просто шикарный. Все подруги спрашивали, где сделано. Спасибо за праздник!»</p>
+                    <div class="review-author">
+                        <div class="author-avatar">ДС</div>
+                        <div>
+                            <p class="author-name">Дарья Смирнова</p>
+                            <p class="author-meta">Маникюр + покрытие</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ APPOINTMENT ============ -->
+    <section id="appointment" class="appointment">
+        <div class="appointment-bg"></div>
+        <div class="container">
+            <div class="appointment-card reveal">
+                <div class="appointment-info">
+                    <p class="section-eyebrow">Онлайн-запись</p>
+                    <h2 class="section-title">Запишитесь <em>сейчас</em></h2>
+                    <p class="section-text">Оставьте заявку — администратор напишет в Telegram в течение 10 минут и подберёт удобное время.</p>
+                    <ul class="appointment-list">
+                        <li><span>✓</span> Ответ за 10 минут</li>
+                        <li><span>✓</span> Подбор мастера под задачу</li>
+                        <li><span>✓</span> Напоминание за 2 часа</li>
+                        <li><span>✓</span> Программа лояльности —7% кэшбэк</li>
+                    </ul>
+                </div>
+                <form class="appointment-form" id="appointmentForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Ваше имя</label>
+                            <input type="text" id="name" name="name" placeholder="Анна" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Telegram / Телефон</label>
+                            <input type="tel" id="phone" name="phone" placeholder="@username или +7..." required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="service">Услуга</label>
+                            <select id="service" name="service">
+                                <option>Окрашивание волос</option>
+                                <option>Стрижка + укладка</option>
+                                <option>Маникюр гель-лак</option>
+                                <option>Наращивание ресниц</option>
+                                <option>Косметология (чистка)</option>
+                                <option>Макияж / брови</option>
+                                <option>SPA / массаж</option>
+                                <option>Комплекс услуг</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="date">Желаемая дата</label>
+                            <input type="date" id="date" name="date" required>
+                        </div>
+                    </div>
+                    <div class="form-group full">
+                        <label for="comment">Пожелания (необязательно)</label>
+                        <textarea id="comment" name="comment" rows="2" placeholder="Предпочтения по мастеру, время, особенности..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Записаться</button>
+                    <p class="form-note">Нажимая кнопку, вы соглашаетесь с обработкой персональных данных</p>
+                    <div class="form-success" id="formSuccess">
+                        ✓ Спасибо! Администратор свяжется с вами в Telegram в течение 10 минут.
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ CONTACTS ============ -->
+    <section id="contacts" class="contacts">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="section-eyebrow">Контакты</p>
+                <h2 class="section-title">Как нас <em>найти</em></h2>
+            </div>
+            <div class="contacts-grid">
+                <div class="contact-cards">
+                    <div class="contact-card reveal">
+                        <div class="contact-icon">📍</div>
+                        <h3>Адрес</h3>
+                        <p>г. Краснодар,<br>ул. Ставропольская, 120</p>
+                    </div>
+                    <div class="contact-card reveal">
+                        <div class="contact-icon">🕒</div>
+                        <h3>Часы работы</h3>
+                        <p>Пн–Сб: 9:00 — 21:00<br>Вс: 10:00 — 18:00</p>
+                    </div>
+                    <div class="contact-card reveal">
+                        <div class="contact-icon">✈️</div>
+                        <h3>Telegram</h3>
+                        <p><a href="https://t.me/liaqil" target="_blank">@liaqil</a></p>
+                    </div>
+                    <div class="contact-card reveal">
+                        <div class="contact-icon">✉</div>
+                        <h3>Email</h3>
+                        <p><a href="mailto:hello@lumiere-beauty.ru">hello@lumiere-beauty.ru</a></p>
+                    </div>
+                </div>
+                <div class="map-container reveal">
+                    <iframe src="https://yandex.ru/map-widget/v1/?ll=38.976930%2C45.035470&z=15" width="100%" height="100%" frameborder="0" title="Карта — Lumière Beauty" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="#home" class="logo">
+                        <span class="logo-icon">✦</span>
+                        <span class="logo-text">Lumière <em>Beauty</em></span>
+                    </a>
+                    <p class="footer-tagline">Премиальный beauty-салон в центре Краснодара. Ваша красота — наше вдохновение.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram">Instagram</a>
+                        <a href="#" aria-label="Telegram">Telegram</a>
+                        <a href="#" aria-label="VK">VK</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Навигация</h4>
+                    <ul>
+                        <li><a href="#about">О нас</a></li>
+                        <li><a href="#services">Услуги</a></li>
+                        <li><a href="#gallery">Галерея</a></li>
+                        <li><a href="#reviews">Отзывы</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Услуги</h4>
+                    <ul>
+                        <li><a href="#services">Парикмахерский зал</a></li>
+                        <li><a href="#services">Маникюр и педикюр</a></li>
+                        <li><a href="#services">Косметология</a></li>
+                        <li><a href="#services">SPA и массаж</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Подписка</h4>
+                    <p>Акции, новости и специальные предложения для подписчиц.</p>
+                    <form class="newsletter" id="newsletter">
+                        <input type="email" placeholder="email@example.com" required>
+                        <button type="submit">→</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 Lumière Beauty. Все права защищены.</p>
+                <p>Сделано с любовью к красоте ✨</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="telegram-form.js"></script>
+</body>
+</html>
