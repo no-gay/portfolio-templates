@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 48" role="img" aria-label="liaqil">
+  <defs>
+    <linearGradient id="lg-mark-dark" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Mark: gradient rounded square + L + dot -->
+  <g transform="translate(0 0)">
+    <rect width="48" height="48" rx="12" fill="url(#lg-mark-dark)"/>
+    <path d="M16.5 11.25 H24.75 V27 H33 V34.5 H16.5 Z" fill="#FFFFFF"/>
+    <circle cx="33" cy="15" r="3.75" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Wordmark "liaqil" (dark text for light backgrounds) -->
+  <text x="62" y="32" font-family="Manrope, -apple-system, Segoe UI, Roboto, sans-serif"
+        font-weight="800" font-size="26" letter-spacing="-0.5" fill="#0B0F19">liaqil</text>
+</svg>
