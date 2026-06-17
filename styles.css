@@ -70,7 +70,19 @@ img { max-width: 100%; display: block; }
     font-weight: 700;
     color: var(--white);
 }
-.brand-mark { color: var(--accent); font-size: 18px; }
+.brand-logo {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    display: block;
+    transition: transform var(--transition);
+}
+.brand:hover .brand-logo { transform: scale(1.06); }
+.brand-text {
+    letter-spacing: -0.4px;
+    font-weight: 800;
+}
 .brand-text em { color: var(--accent); font-style: normal; }
 
 .nav-menu { display: flex; gap: 32px; }
