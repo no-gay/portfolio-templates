@@ -1,3 +1,16 @@
+# macOS
 .DS_Store
+
+# Node
 node_modules/
 *.log
+npm-debug.log*
+
+# Playwright (локальный генератор скриншотов, не нужен в проде)
+playwright-report/
+test-results/
+
+# Локальные секреты / окружение
+.env
+.env.local
+.vercel/
